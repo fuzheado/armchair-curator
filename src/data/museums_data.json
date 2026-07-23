@@ -1,0 +1,902 @@
+[
+  {
+    "id": "louvre_raft_medusa",
+    "title": "The Raft of the Medusa",
+    "artist": "Th\u00e9odore G\u00e9ricault",
+    "date": "1818\u20131819",
+    "museum": "Louvre Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JEAN_LOUIS_TH\u00c9ODORE_G\u00c9RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/JEAN_LOUIS_TH\u00c9ODORE_G\u00c9RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg?width=1280",
+    "aspectRatio": 1.47,
+    "caption": "An icon of French Romanticism, depicting survivors of a shipwreck.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a2a1a",
+      "#8a6a3a",
+      "#c8a860"
+    ]
+  },
+  {
+    "id": "louvre_oath_horatii",
+    "title": "Oath of the Horatii",
+    "artist": "Jacques-Louis David",
+    "date": "1784",
+    "museum": "Louvre Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Oath_of_the_Horatii",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus\u00e9e_du_Louvre_Peintures_INV_3692_;_MR_1432.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus\u00e9e_du_Louvre_Peintures_INV_3692_;_MR_1432.jpg?width=1280",
+    "aspectRatio": 1.29,
+    "caption": "A large painting depicting a scene from Roman legend about the Horatii brothers.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#5a2a2a",
+      "#c84830",
+      "#2a2a3a"
+    ]
+  },
+  {
+    "id": "met_aristotle_contemplating",
+    "title": "Aristotle Contemplating a Bust of Homer",
+    "artist": "Rembrandt",
+    "date": "1653",
+    "museum": "Metropolitan Museum of Art",
+    "articleUrl": "https://en.wikipedia.org/wiki/Aristotle_Contemplating_a_Bust_of_Homer",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Aristotle_with_a_Bust_of_Homer_-_WGA19232.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Aristotle_with_a_Bust_of_Homer_-_WGA19232.jpg?width=1280",
+    "aspectRatio": 0.95,
+    "caption": "Rembrandt's contemplative portrait of Aristotle with a bust of Homer.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a2a1a",
+      "#c8a040",
+      "#1a1a2a"
+    ]
+  },
+  {
+    "id": "rijks_night_watch",
+    "title": "The Night Watch",
+    "artist": "Rembrandt",
+    "date": "1642",
+    "museum": "Rijksmuseum",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Night_Watch",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg?width=1280",
+    "aspectRatio": 1.23,
+    "caption": "One of the most famous Dutch Golden Age paintings, officially titled 'Militia Company of District II'.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#2a2018",
+      "#c8b888",
+      "#5a3a1a"
+    ]
+  },
+  {
+    "id": "rijks_milkmaid",
+    "title": "The Milkmaid",
+    "artist": "Johannes Vermeer",
+    "date": "c. 1658",
+    "museum": "Rijksmuseum",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png?width=1280",
+    "aspectRatio": 0.89,
+    "caption": "A domestic servant pouring milk, one of Vermeer's most celebrated works.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8b880",
+      "#3a5a8a",
+      "#2a2018"
+    ]
+  },
+  {
+    "id": "british_rosetta_stone",
+    "title": "The Rosetta Stone",
+    "artist": "Unknown",
+    "date": "196 BC",
+    "museum": "British Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosetta_Stone.JPG?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosetta_Stone.JPG?width=1280",
+    "aspectRatio": 0.85,
+    "caption": "A granodiorite stele inscribed with a decree in three scripts, key to deciphering Egyptian hieroglyphs.",
+    "license": "Public Domain",
+    "medium": "antiquity",
+    "trackCategory": 1,
+    "colors": [
+      "#4a3a2a",
+      "#8a7a5a",
+      "#c8b8a0"
+    ]
+  },
+  {
+    "id": "vango_sunflowers",
+    "title": "Sunflowers",
+    "artist": "Vincent van Gogh",
+    "date": "1888",
+    "museum": "Van Gogh Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_127.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_127.jpg?width=1280",
+    "aspectRatio": 0.79,
+    "caption": "One of van Gogh's iconic sunflower still life paintings from his Arles period.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 3,
+    "colors": [
+      "#c8a830",
+      "#5a8a1a",
+      "#2a3a5a"
+    ]
+  },
+  {
+    "id": "uffizi_birth_of_venus",
+    "title": "The Birth of Venus",
+    "artist": "Sandro Botticelli",
+    "date": "c. 1485",
+    "museum": "Uffizi Gallery",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=1280",
+    "aspectRatio": 1.59,
+    "caption": "Botticelli's masterpiece depicting the goddess Venus emerging from the sea.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8b898",
+      "#5a7a8a",
+      "#3a5a2a"
+    ]
+  },
+  {
+    "id": "prado_las_meninas",
+    "title": "Las Meninas",
+    "artist": "Diego Vel\u00e1zquez",
+    "date": "1656",
+    "museum": "Prado Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Las_Meninas",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas,_by_Diego_Vel\u00e1zquez,_from_Prado_in_Google_Earth.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas,_by_Diego_Vel\u00e1zquez,_from_Prado_in_Google_Earth.jpg?width=1280",
+    "aspectRatio": 0.87,
+    "caption": "Vel\u00e1zquez's complex and enigmatic portrait of the Spanish royal family.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a2a1a",
+      "#8a6a4a",
+      "#c8c0a0"
+    ]
+  },
+  {
+    "id": "moma_starry_night",
+    "title": "The Starry Night",
+    "artist": "Vincent van Gogh",
+    "date": "1889",
+    "museum": "Museum of Modern Art",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Starry_Night",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 1.26,
+    "caption": "Van Gogh's night sky over Saint-R\u00e9my-de-Provence, now at MoMA.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 3,
+    "colors": [
+      "#1a3a5c",
+      "#e8c547",
+      "#2c4c3b"
+    ]
+  },
+  {
+    "id": "dorsay_starry_rhone",
+    "title": "Starry Night Over the Rh\u00f4ne",
+    "artist": "Vincent van Gogh",
+    "date": "1888",
+    "museum": "Mus\u00e9e d'Orsay",
+    "articleUrl": "https://en.wikipedia.org/wiki/Starry_Night_Over_the_Rh\u00f4ne",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 1.29,
+    "caption": "Van Gogh's luminous night scene of the Rh\u00f4ne river at Arles.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 3,
+    "colors": [
+      "#1a2a4a",
+      "#c8a830",
+      "#2a3a1a"
+    ]
+  },
+  {
+    "id": "national_arnolfini",
+    "title": "The Arnolfini Portrait",
+    "artist": "Jan van Eyck",
+    "date": "1434",
+    "museum": "National Gallery London",
+    "articleUrl": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Arnolfini_portrait_(1434).jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Arnolfini_portrait_(1434).jpg?width=1280",
+    "aspectRatio": 0.73,
+    "caption": "A celebrated Early Netherlandish painting of Giovanni di Nicolao Arnolfini and his wife.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a2a1a",
+      "#6a3a2a",
+      "#8a5a3a"
+    ]
+  },
+  {
+    "id": "maurits_girl_pearl_earring",
+    "title": "Girl with a Pearl Earring",
+    "artist": "Johannes Vermeer",
+    "date": "c. 1665",
+    "museum": "Mauritshuis",
+    "articleUrl": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1665_Girl_with_a_Pearl_Earring.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1665_Girl_with_a_Pearl_Earring.jpg?width=1280",
+    "aspectRatio": 0.84,
+    "caption": "One of Vermeer's most famous works, often called the 'Mona Lisa of the North'.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#1a1a2a",
+      "#c8a840",
+      "#2a3a5a"
+    ]
+  },
+  {
+    "id": "hermitage_prodigal_son",
+    "title": "The Return of the Prodigal Son",
+    "artist": "Rembrandt",
+    "date": "c. 1669",
+    "museum": "Hermitage Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Return_of_the_Prodigal_Son_(Rembrandt)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 0.77,
+    "caption": "Rembrandt's monumental religious painting of forgiveness and redemption.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a1a1a",
+      "#8a3a2a",
+      "#c88040"
+    ]
+  },
+  {
+    "id": "vatican_school_of_athens",
+    "title": "The School of Athens",
+    "artist": "Raphael",
+    "date": "1509\u20131511",
+    "museum": "Vatican Museums",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_School_of_Athens",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/\"The_School_of_Athens\"_by_Raffaello_Sanzio_da_Urbino.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/\"The_School_of_Athens\"_by_Raffaello_Sanzio_da_Urbino.jpg?width=1280",
+    "aspectRatio": 1.29,
+    "caption": "Raphael's fresco representing philosophy, with Plato and Aristotle at center.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8b898",
+      "#5a4a3a",
+      "#3a5a7a"
+    ]
+  },
+  {
+    "id": "chicago_american_gothic",
+    "title": "American Gothic",
+    "artist": "Grant Wood",
+    "date": "1930",
+    "museum": "Art Institute of Chicago",
+    "articleUrl": "https://en.wikipedia.org/wiki/American_Gothic",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 0.83,
+    "caption": "One of the most familiar images in 20th-century American art \u2014 a farmer and his daughter.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a3a2a",
+      "#8a6a4a",
+      "#c8c0a0"
+    ]
+  },
+  {
+    "id": "prado_garden_earthly_delights",
+    "title": "The Garden of Earthly Delights",
+    "artist": "Hieronymus Bosch",
+    "date": "c. 1490\u20131510",
+    "museum": "Prado Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Garden_of_earthly_delights.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Garden_of_earthly_delights.jpg?width=1280",
+    "aspectRatio": 1.76,
+    "caption": "Bosch's most famous triptych, depicting paradise, earthly pleasures, and hell.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#2a5a2a",
+      "#c88040",
+      "#1a2a4a"
+    ]
+  },
+  {
+    "id": "moma_campbells_soup",
+    "title": "Campbell's Soup Cans",
+    "artist": "Andy Warhol",
+    "date": "1962",
+    "museum": "Museum of Modern Art",
+    "articleUrl": "https://en.wikipedia.org/wiki/Campbell's_Soup_Cans",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Campbell's_Soup_Cans_by_Andy_Warhol.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Campbell's_Soup_Cans_by_Andy_Warhol.jpg?width=1280",
+    "aspectRatio": 1.72,
+    "caption": "Warhol's iconic pop art work consisting of 32 canvases of Campbell's Soup cans.",
+    "license": "Public Domain",
+    "medium": "print",
+    "trackCategory": 3,
+    "colors": [
+      "#c82020",
+      "#c8c8c0",
+      "#1a1a1a"
+    ]
+  },
+  {
+    "id": "vango_almond_blossoms",
+    "title": "Almond Blossoms",
+    "artist": "Vincent van Gogh",
+    "date": "1890",
+    "museum": "Van Gogh Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Almond_Blossoms",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 1.26,
+    "caption": "Van Gogh's gift to his newborn nephew, depicting flowering almond branches against a blue sky.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 3,
+    "colors": [
+      "#3a7aaa",
+      "#c8a8c0",
+      "#2a5a3a"
+    ]
+  },
+  {
+    "id": "british_sutton_hoo_helmet",
+    "title": "Sutton Hoo Helmet",
+    "artist": "Unknown Anglo-Saxon Artisan",
+    "date": "c. 600\u2013625 AD",
+    "museum": "British Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Sutton_Hoo_helmet",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sutton_Hoo_helmet_2016.png?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sutton_Hoo_helmet_2016.png?width=1280",
+    "aspectRatio": 0.7,
+    "caption": "An ornate Anglo-Saxon helmet from the early 7th century, found at the Sutton Hoo ship burial.",
+    "license": "Public Domain",
+    "medium": "antiquity",
+    "trackCategory": 1,
+    "colors": [
+      "#8a6a3a",
+      "#4a3a2a",
+      "#c8a860"
+    ]
+  },
+  {
+    "id": "accademia_david",
+    "title": "David",
+    "artist": "Michelangelo",
+    "date": "1501\u20131504",
+    "museum": "Galleria dell'Accademia",
+    "articleUrl": "https://en.wikipedia.org/wiki/David_(Michelangelo)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/'David'_by_Michelangelo_Fir_JBU004.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/'David'_by_Michelangelo_Fir_JBU004.jpg?width=1280",
+    "aspectRatio": 0.67,
+    "caption": "Michelangelo's marble masterpiece, a 5.17-meter statue of the Biblical hero David.",
+    "license": "Public Domain",
+    "medium": "sculpture",
+    "trackCategory": 1,
+    "colors": [
+      "#c8c0b0",
+      "#8a8070",
+      "#4a4030"
+    ]
+  },
+  {
+    "id": "dorsay_gleaners",
+    "title": "The Gleaners",
+    "artist": "Jean-Fran\u00e7ois Millet",
+    "date": "1857",
+    "museum": "Mus\u00e9e d'Orsay",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Gleaners",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran\u00e7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran\u00e7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg?width=1280",
+    "aspectRatio": 1.34,
+    "caption": "Millet's Realist masterpiece showing three peasant women gleaning a field of wheat.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8a860",
+      "#5a7a3a",
+      "#2a3a1a"
+    ]
+  },
+  {
+    "id": "dorsay_whistlers_mother",
+    "title": "Whistler's Mother",
+    "artist": "James McNeill Whistler",
+    "date": "1871",
+    "museum": "Mus\u00e9e d'Orsay",
+    "articleUrl": "https://en.wikipedia.org/wiki/Whistler's_Mother",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Whistlers_Mother_high_res.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Whistlers_Mother_high_res.jpg?width=1280",
+    "aspectRatio": 1.12,
+    "caption": "Formally titled 'Arrangement in Grey and Black No.1', one of the most famous American paintings.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#2a2a2a",
+      "#8a8a8a",
+      "#c8c8c0"
+    ]
+  },
+  {
+    "id": "reina_sofia_guernica",
+    "title": "Guernica",
+    "artist": "Pablo Picasso",
+    "date": "1937",
+    "museum": "Museo Reina Sof\u00eda",
+    "articleUrl": "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PicassoGuernica.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PicassoGuernica.jpg?width=1280",
+    "aspectRatio": 2.2,
+    "caption": "Picasso's powerful anti-war mural depicting the bombing of Guernica during the Spanish Civil War.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 3,
+    "colors": [
+      "#1a1a1a",
+      "#8a8a80",
+      "#c8c8c0"
+    ]
+  },
+  {
+    "id": "national_temeraire",
+    "title": "The Fighting Temeraire",
+    "artist": "J. M. W. Turner",
+    "date": "1838",
+    "museum": "National Gallery London",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Fighting_Temeraire",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg?width=1280",
+    "aspectRatio": 1.35,
+    "caption": "Turner's poignant depiction of the HMS Temeraire being towed to be broken up.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c88030",
+      "#3a5a8a",
+      "#1a2018"
+    ]
+  },
+  {
+    "id": "maurits_goldfinch",
+    "title": "The Goldfinch",
+    "artist": "Carel Fabritius",
+    "date": "1654",
+    "museum": "Mauritshuis",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Goldfinch_(painting)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fabritius-vink.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fabritius-vink.jpg?width=1280",
+    "aspectRatio": 0.65,
+    "caption": "A small, intimate trompe-l'\u0153il painting of a chained goldfinch that survived an explosion.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8c0a0",
+      "#3a3020",
+      "#8a7a50"
+    ]
+  },
+  {
+    "id": "uffizi_primavera",
+    "title": "Primavera",
+    "artist": "Sandro Botticelli",
+    "date": "c. 1482",
+    "museum": "Uffizi Gallery",
+    "articleUrl": "https://en.wikipedia.org/wiki/Primavera_(Botticelli)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Botticelli-primavera.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Botticelli-primavera.jpg?width=1280",
+    "aspectRatio": 1.52,
+    "caption": "Botticelli's allegorical painting of spring, featuring mythological figures in a garden.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#2a5a2a",
+      "#c8a860",
+      "#3a4a2a"
+    ]
+  },
+  {
+    "id": "met_death_socrates",
+    "title": "The Death of Socrates",
+    "artist": "Jacques-Louis David",
+    "date": "1787",
+    "museum": "Metropolitan Museum of Art",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Death_of_Socrates",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David_-_The_Death_of_Socrates.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David_-_The_Death_of_Socrates.jpg?width=1280",
+    "aspectRatio": 1.52,
+    "caption": "David's neoclassical masterpiece depicting Socrates preparing to drink hemlock.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a2a1a",
+      "#8a4a2a",
+      "#c8c0a0"
+    ]
+  },
+  {
+    "id": "vatican_laocoon",
+    "title": "Laoco\u00f6n and His Sons",
+    "artist": "Agesander, Athenodoros, and Polydorus",
+    "date": "c. 40\u201330 BC",
+    "museum": "Vatican Museums",
+    "articleUrl": "https://en.wikipedia.org/wiki/Laoco\u00f6n_and_His_Sons",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Laoco\u00f6n_and_his_sons_group.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Laoco\u00f6n_and_his_sons_group.jpg?width=1280",
+    "aspectRatio": 0.92,
+    "caption": "The monumental marble group depicting the Trojan priest Laoco\u00f6n and his sons being attacked by sea serpents.",
+    "license": "Public Domain",
+    "medium": "sculpture",
+    "trackCategory": 1,
+    "colors": [
+      "#c8c0b0",
+      "#8a8070",
+      "#4a4030"
+    ]
+  },
+  {
+    "id": "louvre_venus_de_milo_new",
+    "title": "Venus de Milo",
+    "artist": "Alexandros of Antioch",
+    "date": "c. 150\u2013125 BC",
+    "museum": "Louvre Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_views_of_the_Venus_de_Milo.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_views_of_the_Venus_de_Milo.jpg?width=1280",
+    "aspectRatio": 0.53,
+    "caption": "An ancient Greek statue depicting Aphrodite, the goddess of love and beauty.",
+    "license": "Public Domain",
+    "medium": "sculpture",
+    "trackCategory": 1,
+    "colors": [
+      "#d8d3c5",
+      "#6e685c",
+      "#282520"
+    ]
+  },
+  {
+    "id": "louvre_winged_victory_new",
+    "title": "Winged Victory of Samothrace",
+    "artist": "Unknown Hellenistic Sculptor",
+    "date": "c. 190 BC",
+    "museum": "Louvre Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?width=1280",
+    "aspectRatio": 0.75,
+    "caption": "A monumental marble sculpture of Nike, the Greek goddess of victory.",
+    "license": "Public Domain",
+    "medium": "sculpture",
+    "trackCategory": 1,
+    "colors": [
+      "#c2beaf",
+      "#827e73",
+      "#3a3832"
+    ]
+  },
+  {
+    "id": "pergamon_ishtar_gate",
+    "title": "Ishtar Gate",
+    "artist": "Nebuchadnezzar II",
+    "date": "c. 575 BC",
+    "museum": "Pergamon Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Ishtar_Gate",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Berl\u00edn,_Museo_de_P\u00e9rgamo_05.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Berl\u00edn,_Museo_de_P\u00e9rgamo_05.jpg?width=1280",
+    "aspectRatio": 1.61,
+    "caption": "The eighth gate to the inner city of Babylon, adorned with glazed brick reliefs of dragons and bulls.",
+    "license": "Public Domain",
+    "medium": "antiquity",
+    "trackCategory": 1,
+    "colors": [
+      "#3a5a8a",
+      "#c8a840",
+      "#2a3a1a"
+    ]
+  },
+  {
+    "id": "egyptian_tut_mask",
+    "title": "Mask of Tutankhamun",
+    "artist": "Unknown Egyptian Artisan",
+    "date": "c. 1323 BC",
+    "museum": "Egyptian Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CairoEgMuseumTaaMaskMostlyPhotographed.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CairoEgMuseumTaaMaskMostlyPhotographed.jpg?width=1280",
+    "aspectRatio": 0.8,
+    "caption": "The gold funerary mask of the 18th dynasty pharaoh Tutankhamun.",
+    "license": "Public Domain",
+    "medium": "antiquity",
+    "trackCategory": 1,
+    "colors": [
+      "#c8a840",
+      "#3a5a8a",
+      "#1a1a2a"
+    ]
+  },
+  {
+    "id": "moma_water_lilies",
+    "title": "Water Lilies",
+    "artist": "Claude Monet",
+    "date": "1914\u20131926",
+    "museum": "Museum of Modern Art",
+    "articleUrl": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg?width=1280",
+    "aspectRatio": 1.76,
+    "caption": "One of Monet's monumental water lily panels, capturing the shimmering surface of his Giverny pond.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 3,
+    "colors": [
+      "#3a5a7a",
+      "#5a8aaa",
+      "#c8c8d0"
+    ]
+  },
+  {
+    "id": "dorsay_luncheon",
+    "title": "Luncheon on the Grass",
+    "artist": "\u00c9douard Manet",
+    "date": "1863",
+    "museum": "Mus\u00e9e d'Orsay",
+    "articleUrl": "https://en.wikipedia.org/wiki/Le_D\u00e9jeuner_sur_l'herbe",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 1.29,
+    "caption": "Manet's scandalous painting that challenged academic conventions and paved the way for Impressionism.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 3,
+    "colors": [
+      "#3a5a2a",
+      "#5a7a3a",
+      "#c8c0a0"
+    ]
+  },
+  {
+    "id": "louvre_madonna_rocks",
+    "title": "Virgin of the Rocks",
+    "artist": "Leonardo da Vinci",
+    "date": "1483\u20131486",
+    "museum": "Louvre Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Virgin_of_the_Rocks",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg?width=1280",
+    "aspectRatio": 0.63,
+    "caption": "Leonardo's mysterious depiction of the Virgin Mary with infant Jesus and John the Baptist in a rocky grotto.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#2a3a1a",
+      "#4a5a3a",
+      "#c8b080"
+    ]
+  },
+  {
+    "id": "khm_vermeer_art",
+    "title": "The Art of Painting",
+    "artist": "Johannes Vermeer",
+    "date": "c. 1666\u20131668",
+    "museum": "Kunsthistorisches Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Art_of_Painting",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 0.84,
+    "caption": "Vermeer's allegorical masterpiece showing an artist at his easel, rich with symbolism.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a2a1a",
+      "#8a6a4a",
+      "#c8c0a0"
+    ]
+  },
+  {
+    "id": "uffizi_adoration_magi",
+    "title": "Adoration of the Magi",
+    "artist": "Leonardo da Vinci",
+    "date": "1481",
+    "museum": "Uffizi Gallery",
+    "articleUrl": "https://en.wikipedia.org/wiki/Adoration_of_the_Magi_(Leonardo)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adoration_of_the_Magi_(Leonardo).jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Adoration_of_the_Magi_(Leonardo).jpg?width=1280",
+    "aspectRatio": 1.01,
+    "caption": "Leonardo's unfinished masterpiece, a complex composition of figures surrounding the Virgin and Child.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8a860",
+      "#5a3a2a",
+      "#2a1a0a"
+    ]
+  },
+  {
+    "id": "met_harvesters",
+    "title": "The Harvesters",
+    "artist": "Pieter Bruegel the Elder",
+    "date": "1565",
+    "museum": "Metropolitan Museum of Art",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Harvesters_(painting)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 1.38,
+    "caption": "Bruegel's panoramic vision of peasant life during the late summer wheat harvest.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8a840",
+      "#5a7a2a",
+      "#3a5a1a"
+    ]
+  },
+  {
+    "id": "met_madame_x",
+    "title": "Madame X",
+    "artist": "John Singer Sargent",
+    "date": "1884",
+    "museum": "Metropolitan Museum of Art",
+    "articleUrl": "https://en.wikipedia.org/wiki/Portrait_of_Madame_X",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Madame_X_(Madame_Pierre_Gautreau),_John_Singer_Sargent,_1884_(unfree_frame_crop).jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Madame_X_(Madame_Pierre_Gautreau),_John_Singer_Sargent,_1884_(unfree_frame_crop).jpg?width=1280",
+    "aspectRatio": 0.51,
+    "caption": "Sargent's striking portrait of Virginie Am\u00e9lie Avegno Gautreau that caused a scandal at the Paris Salon.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#1a1a2a",
+      "#c8c0b8",
+      "#3a2a1a"
+    ]
+  },
+  {
+    "id": "prado_maja",
+    "title": "The Naked Maja",
+    "artist": "Francisco Goya",
+    "date": "c. 1797\u20131800",
+    "museum": "Prado Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/La_maja_desnuda",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Goya_Maja_naga2.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Goya_Maja_naga2.jpg?width=1280",
+    "aspectRatio": 1.98,
+    "caption": "Goya's provocative depiction of a nude woman, one of the earliest Western artworks to show pubic hair.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#c8b898",
+      "#3a5a2a",
+      "#2a1a1a"
+    ]
+  },
+  {
+    "id": "national_gallery_venus",
+    "title": "The Rokeby Venus",
+    "artist": "Diego Vel\u00e1zquez",
+    "date": "c. 1647\u20131651",
+    "museum": "National Gallery London",
+    "articleUrl": "https://en.wikipedia.org/wiki/Rokeby_Venus",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Vel\u00e1zquez_-_Rokeby_Venus.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Vel\u00e1zquez_-_Rokeby_Venus.jpg?width=1280",
+    "aspectRatio": 1.46,
+    "caption": "Vel\u00e1zquez's only surviving female nude, depicting Venus reclining while Cupid holds a mirror.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#2a1a1a",
+      "#c8a8a0",
+      "#4a3a3a"
+    ]
+  },
+  {
+    "id": "national_gallery_supper",
+    "title": "The Supper at Emmaus",
+    "artist": "Caravaggio",
+    "date": "1601",
+    "museum": "National Gallery London",
+    "articleUrl": "https://en.wikipedia.org/wiki/Supper_at_Emmaus_(Caravaggio,_London)",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1602-3_Caravaggio,Supper_at_Emmaus_National_Gallery,_London.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1602-3_Caravaggio,Supper_at_Emmaus_National_Gallery,_London.jpg?width=1280",
+    "aspectRatio": 1.4,
+    "caption": "Caravaggio's dramatic chiaroscuro depiction of the resurrected Christ revealing himself to his disciples.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#1a1a1a",
+      "#c8a040",
+      "#3a2a1a"
+    ]
+  },
+  {
+    "id": "rijks_jewish_bride",
+    "title": "The Jewish Bride",
+    "artist": "Rembrandt",
+    "date": "c. 1667",
+    "museum": "Rijksmuseum",
+    "articleUrl": "https://en.wikipedia.org/wiki/The_Jewish_Bride",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_Harmensz._van_Rijn_-_Portret_van_een_paar_als_oudtestamentische_figuren,_genaamd_'Het_Joodse_bruidje'_-_Google_Art_Project.jpg?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_Harmensz._van_Rijn_-_Portret_van_een_paar_als_oudtestamentische_figuren,_genaamd_'Het_Joodse_bruidje'_-_Google_Art_Project.jpg?width=1280",
+    "aspectRatio": 1.37,
+    "caption": "Rembrandt's tender and intimate portrait of a couple, celebrated for its rich impasto and emotional depth.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#3a1a1a",
+      "#8a3a2a",
+      "#c88040"
+    ]
+  },
+  {
+    "id": "hermitage_benois_madonna",
+    "title": "Benois Madonna",
+    "artist": "Leonardo da Vinci",
+    "date": "c. 1478",
+    "museum": "Hermitage Museum",
+    "articleUrl": "https://en.wikipedia.org/wiki/Benois_Madonna",
+    "thumbUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo,_Madonna_Benois.JPG?width=640",
+    "fullUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo,_Madonna_Benois.JPG?width=1280",
+    "aspectRatio": 0.62,
+    "caption": "One of Leonardo's earliest surviving works, showing the Virgin Mary with a playful Christ child.",
+    "license": "Public Domain",
+    "medium": "painting",
+    "trackCategory": 2,
+    "colors": [
+      "#2a1a1a",
+      "#4a3a2a",
+      "#c8b080"
+    ]
+  }
+]

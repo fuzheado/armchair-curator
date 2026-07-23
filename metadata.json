@@ -1,0 +1,6 @@
+{
+  "name": "Curator's Belt",
+  "description": "Ambient museum collection and collage game featuring dynamic conveyor belts, interactive salon wall canvas, and real-time color sampling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
