@@ -44,45 +44,296 @@ export const ExhibitionExportModal: React.FC<ExhibitionExportModalProps> = ({
     const catalogHtml = items
       .map(
         (item, idx) =>
-          `<div style="display:flex;align-items:flex-start;gap:14px;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid #3d3528;">
-            <img src="${item.artwork.thumbUrl}" alt="${item.artwork.title}" style="width:120px;height:auto;object-fit:contain;border:3px solid #5c4a2a;border-radius:2px;" />
-            <div>
-              <div style="font-family:Georgia,serif;font-size:16px;font-weight:bold;color:#c8a44e;">${idx + 1}. ${item.artwork.title}</div>
-              <div style="font-family:Georgia,serif;font-size:13px;color:#a09070;font-style:italic;">${item.artwork.artist || 'Unknown Artist'}${item.artwork.date ? ', ' + item.artwork.date : ''}</div>
-              <div style="font-size:11px;color:#706858;margin-top:2px;">Collection of ${item.artwork.museum} &middot; ${item.artwork.license}</div>
+          `<div class="plate">
+            <div class="plate-number">Plate ${idx + 1}</div>
+            <div class="plate-img">
+              <img src="${item.artwork.thumbUrl}" alt="${item.artwork.title}" crossorigin="anonymous" />
+            </div>
+            <div class="plate-info">
+              <div class="plate-title">${item.artwork.title}</div>
+              <div class="plate-artist">${item.artwork.artist || 'Unknown Artist'}${item.artwork.date ? ', ' + item.artwork.date : ''}</div>
+              <div class="plate-meta">${item.artwork.museum} &middot; ${item.artwork.medium} &middot; ${item.artwork.license}</div>
+              <div class="plate-caption">${item.artwork.caption}</div>
             </div>
           </div>`
       )
       .join('');
 
+    const narrativeHtml = narrative
+      ? `<div class="essay">
+          <h2>Curatorial Essay</h2>
+          <div class="essay-rule">&#10087;</div>
+          ${narrative.split('\n\n').map((p, i) => `<p${i === 0 ? ' class="drop-cap"' : ''}>${p}</p>`).join('')}
+        </div>`
+      : '';
+
     const brochure = `<!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>${exhibitionMeta.title} — Exhibition Brochure</title>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>${exhibitionMeta.title} &mdash; Exhibition Brochure</title>
 <style>
-  body { font-family: Georgia, serif; background: #1a1815; color: #d0c8b8; margin: 0; padding: 0; }
-  .page { max-width: 800px; margin: 0 auto; padding: 48px 40px; background: #1e1c18; }
-  .header { text-align: center; border-bottom: 2px solid #5c4a2a; padding-bottom: 24px; margin-bottom: 32px; }
-  .header h1 { font-size: 28px; color: #c8a44e; margin: 0 0 8px 0; letter-spacing: 1px; }
-  .header .curator { font-size: 14px; color: #908060; font-style: italic; }
-  .header .stats { font-size: 11px; color: #706050; text-transform: uppercase; letter-spacing: 2px; margin-top: 12px; }
-  .narrative { background: #262118; border-left: 3px solid #5c4a2a; padding: 20px 24px; margin-bottom: 32px; font-size: 15px; line-height: 1.7; color: #c0b898; }
-  .catalog h2 { font-size: 18px; color: #a08850; border-bottom: 1px solid #3d3528; padding-bottom: 8px; margin-bottom: 20px; }
-  @media print { body { background: white; } .page { background: white; max-width: 100%; padding: 30px; } .narrative { background: #faf8f2; } .header h1 { color: #5c4a2a; } }
-</style></head><body><div class="page">
-  <div class="header">
+  @page {
+    size: A4;
+    margin: 20mm 18mm;
+    @bottom-center {
+      content: counter(page);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 10px;
+      color: #999;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: 'Crimson Text', Georgia, 'Times New Roman', serif;
+    background: #faf7f2;
+    color: #2c2416;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 13px;
+  }
+
+  .brochure {
+    max-width: 190mm;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* ── Cover ── */
+  .cover {
+    text-align: center;
+    padding: 60px 40px 40px;
+    page-break-after: always;
+    border: 2px solid #8b7355;
+    margin-bottom: 30px;
+    background: linear-gradient(to bottom, #faf7f2 0%, #f0ead6 50%, #faf7f2 100%);
+  }
+  .cover-ornament {
+    font-size: 36px;
+    color: #8b7355;
+    letter-spacing: 12px;
+    margin-bottom: 24px;
+  }
+  .cover h1 {
+    font-family: 'Playfair Display', 'Crimson Text', Georgia, serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3d2b1a;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin: 0 0 16px 0;
+    text-transform: uppercase;
+  }
+  .cover .subtitle {
+    font-size: 16px;
+    font-style: italic;
+    color: #6b5b4a;
+    margin-bottom: 32px;
+  }
+  .cover .divider {
+    width: 80px;
+    height: 2px;
+    background: #8b7355;
+    margin: 0 auto 24px;
+  }
+  .cover .meta {
+    font-size: 13px;
+    color: #6b5b4a;
+    letter-spacing: 1px;
+  }
+  .cover .meta strong {
+    display: block;
+    font-size: 15px;
+    color: #3d2b1a;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  /* ── Essay ── */
+  .essay {
+    padding: 0 10px;
+    margin-bottom: 40px;
+    page-break-before: always;
+  }
+  .essay h2 {
+    font-family: 'Playfair Display', 'Crimson Text', Georgia, serif;
+    font-size: 22px;
+    text-align: center;
+    color: #3d2b1a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .essay-rule {
+    text-align: center;
+    font-size: 18px;
+    color: #8b7355;
+    margin-bottom: 24px;
+  }
+  .essay p {
+    font-size: 14px;
+    line-height: 1.75;
+    text-align: justify;
+    margin: 0 0 14px 0;
+    text-indent: 1.5em;
+  }
+  .essay p.drop-cap:first-letter {
+    float: left;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 64px;
+    line-height: 0.8;
+    padding-right: 8px;
+    padding-top: 4px;
+    color: #8b7355;
+  }
+
+  /* ── Catalog ── */
+  .catalog-header {
+    text-align: center;
+    margin-bottom: 32px;
+    page-break-before: always;
+  }
+  .catalog-header h2 {
+    font-family: 'Playfair Display', 'Crimson Text', Georgia, serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #3d2b1a;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .catalog-header .rule {
+    font-size: 14px;
+    color: #8b7355;
+    letter-spacing: 6px;
+  }
+
+  .catalog {
+    column-count: 2;
+    column-gap: 28px;
+    column-rule: 1px solid #d4c8b0;
+  }
+
+  .plate {
+    break-inside: avoid;
+    margin-bottom: 28px;
+    border-bottom: 1px dotted #d4c8b0;
+    padding-bottom: 20px;
+  }
+  .plate-number {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 11px;
+    color: #8b7355;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .plate-img {
+    text-align: center;
+    margin-bottom: 10px;
+    background: #f0ead6;
+    padding: 8px;
+    border: 1px solid #d4c8b0;
+  }
+  .plate-img img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  .plate-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3d2b1a;
+    margin-bottom: 2px;
+    font-style: italic;
+  }
+  .plate-artist {
+    font-size: 12px;
+    color: #5c4a3a;
+    margin-bottom: 4px;
+  }
+  .plate-meta {
+    font-size: 10px;
+    color: #8b7355;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+  .plate-caption {
+    font-size: 11px;
+    color: #6b5b4a;
+    line-height: 1.5;
+    font-style: italic;
+  }
+
+  /* ── Colophon ── */
+  .colophon {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #8b7355;
+    font-size: 10px;
+    color: #8b7355;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  }
+  .colophon .ornament {
+    font-size: 16px;
+    margin-bottom: 12px;
+    letter-spacing: 8px;
+  }
+
+  @media print {
+    body { background: white; }
+    .cover { background: white; border: 2px solid #8b7355; }
+  }
+</style>
+</head>
+<body>
+<div class="brochure">
+
+  <!-- Cover -->
+  <div class="cover">
+    <div class="cover-ornament">&#10087;</div>
     <h1>${exhibitionMeta.title}</h1>
-    <div class="curator">Curated by ${exhibitionMeta.curatorName || 'Anonymous Curator'}</div>
-    <div class="stats">${items.length} Artworks &middot; ${museums.length} Museums</div>
+    <div class="subtitle">An Exhibition Assembled by ${exhibitionMeta.curatorName || 'the Lead Curator'}</div>
+    <div class="divider"></div>
+    <div class="meta">
+      <strong>${items.length} Works</strong>
+      from ${museums.length} International Collections
+    </div>
   </div>
-  ${narrative ? `<div class="narrative">${narrative.split('\n\n').map(p => `<p>${p}</p>`).join('')}</div>` : ''}
+
+  ${narrativeHtml}
+
+  <!-- Catalog -->
+  <div class="catalog-header">
+    <h2>Exhibition Checklist</h2>
+    <div class="rule">&#10087;</div>
+  </div>
+
   <div class="catalog">
-    <h2>Exhibition Catalog</h2>
     ${catalogHtml}
   </div>
-  <div style="text-align:center;margin-top:32px;font-size:10px;color:#706050;">
-    ${narrative ? 'Exhibition narrative generated by Wikimedia LiftWing LLM (llm-qwen36-27b).<br>' : ''}
-    Images courtesy of Wikimedia Commons. Curator&rsquo;s Belt &mdash; Museum Collection Game.
+
+  <!-- Colophon -->
+  <div class="colophon">
+    <div class="ornament">&#10087;</div>
+    ${narrative ? 'Curatorial essay composed by <strong>Wikimedia LiftWing LLM</strong> (llm-qwen36-27b),<br>a free AI service hosted by the Wikimedia Foundation.<br><br>' : ''}
+    All images courtesy of <strong>Wikimedia Commons</strong>.<br>
+    Produced with <strong>Curator&rsquo;s Belt</strong> &mdash; the ambient museum collection game.<br>
+    <br>
+    ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
   </div>
-</div></body></html>`;
+
+</div>
+</body>
+</html>`;
 
     const w = window.open('', '_blank', 'width=900,height=700');
     if (w) {
