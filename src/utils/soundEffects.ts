@@ -1,5 +1,5 @@
 /**
- * Web Audio API Sound Synthesizer for Curator's Belt
+ * Web Audio API Sound Synthesizer for Armchair Curator
  * 100% client-side, zero external sound files required.
  */
 

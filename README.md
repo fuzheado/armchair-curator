@@ -1,4 +1,4 @@
-# Curator's Belt — Ambient Museum Collection & Collage Game
+# Armchair Curator — Ambient Museum Collection & Collage Game
 
 A relaxing, atmospheric web app where images of museum highlights glide across conveyor belts. Pluck artworks onto a canvas to assemble a custom gallery collage, then generate an AI-written exhibition narrative and export as a high-resolution PNG.
 

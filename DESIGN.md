@@ -3,12 +3,12 @@ Here is a PRD for a new app, can you see if this is clear, or ask me anything el
 # Product Requirements Document (PRD)
 
 ## Project Title
-**Curator’s Belt — Ambient Museum Collection & Collage Game**
+**Armchair Curator — Ambient Museum Collection & Collage Game**
 
 ---
 
 ## 1. Product Overview & Vision
-**Curator’s Belt** is a relaxing, atmospheric web application and visual curation game. Images of museum highlights continuously glide across the bottom of the screen on three conveyor belts moving at different speeds. The user plucks artworks off the belts onto a spacious collection canvas above, assembling a custom gallery collage. As new pieces are added, the canvas ambiently transforms its lighting, layout, and metadata display in real time.
+**Armchair Curator** is a relaxing, atmospheric web application and visual curation game. Images of museum highlights continuously glide across the bottom of the screen on three conveyor belts moving at different speeds. The user plucks artworks off the belts onto a spacious collection canvas above, assembling a custom gallery collage. As new pieces are added, the canvas ambiently transforms its lighting, layout, and metadata display in real time.
 
 ---
 

@@ -11,8 +11,8 @@ import { ExhibitionExportModal } from './components/ExhibitionExportModal';
 import { BookOpen, X, Info, Sparkles } from 'lucide-react';
 import { playPlaceSound, playClickSound } from './utils/soundEffects';
 
-const STORAGE_KEY_CANVAS = 'curators_belt_canvas_v1';
-const STORAGE_KEY_META = 'curators_belt_meta_v1';
+const STORAGE_KEY_CANVAS = 'armchair_curator_canvas_v1';
+const STORAGE_KEY_META = 'armchair_curator_meta_v1';
 
 export default function App() {
   const allArtworks = useMemo(() => museumDataset as Artwork[], []);

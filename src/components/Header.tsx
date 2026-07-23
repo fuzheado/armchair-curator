@@ -50,7 +50,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <h1 className="font-serif text-base font-semibold text-amber-100 tracking-wide leading-none flex items-center gap-1.5">
-              Curator’s Belt
+              Armchair Curator
               <span className="text-[10px] uppercase font-sans tracking-widest px-1.5 py-0.5 rounded bg-amber-900/60 text-amber-300 border border-amber-700/50">
                 Gallery
               </span>

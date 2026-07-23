@@ -1,4 +1,4 @@
-// server.mjs — Static file server for Curator's Belt (Toolforge Kubernetes)
+// server.mjs — Static file server for Armchair Curator (Toolforge Kubernetes)
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -69,5 +69,5 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Curator's Belt running on port ${PORT}`);
+  console.log(`Armchair Curator running on port ${PORT}`);
 });

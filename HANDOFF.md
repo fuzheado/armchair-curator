@@ -1,4 +1,4 @@
-# Curator's Belt — Development Handoff
+# Armchair Curator — Development Handoff
 
 *Last updated: July 23, 2026. For the next agent or developer picking this up.*
 
@@ -7,7 +7,7 @@
 ## Quick Start
 
 ```bash
-cd /Users/alih/Documents/ai/curators-belt
+cd /Users/alih/Documents/ai/armchair-curator
 npm install
 npm run dev        # → http://localhost:3000
 npm run build      # production build
@@ -20,7 +20,7 @@ npm run lint       # tsc --noEmit
 
 ## What This App Is
 
-**Curator's Belt** — a relaxing museum curation game. Artworks scroll on three conveyor belts at the bottom. The user drags/plucks them onto a canvas above to assemble a custom gallery. Switch between Salon Wall (grid) and Freeform (drag/rotate/scale) modes. Click "Finish Exhibition" to get an AI-written exhibition narrative and export as PNG.
+**Armchair Curator** — a relaxing museum curation game. Artworks scroll on three conveyor belts at the bottom. The user drags/plucks them onto a canvas above to assemble a custom gallery. Switch between Salon Wall (grid) and Freeform (drag/rotate/scale) modes. Click "Finish Exhibition" to get an AI-written exhibition narrative and export as PNG.
 
 Full PRD: `DESIGN.md`
 
@@ -105,8 +105,8 @@ Model name must be `llm-qwen36-27b` (matches the URL path — `llm-qwen3-14b` do
 
 ### 7. localStorage keys
 
-- Canvas state: `curators_belt_canvas_v1`
-- Exhibition metadata: `curators_belt_meta_v1`
+- Canvas state: `armchair_curator_canvas_v1`
+- Exhibition metadata: `armchair_curator_meta_v1`
 
 Both are JSON serialized. Clearing localStorage resets the canvas to the default sample pieces.
 
@@ -120,7 +120,7 @@ Both are JSON serialized. Clearing localStorage resets the canvas to the default
 
 3. **`extractColorsFromImage` exists but unused** — the Canvas-based color extraction utility is written and exported but not called anywhere. Color data still comes from pre-baked `colors` arrays in the JSON. To wire it up, call it in `handlePluckArtwork` and replace the artwork's `colors` with the extracted values.
 
-4. **Inconsistent `index.html` title** — still says "My Google AI Studio App". Update to "Curator's Belt".
+4. **Inconsistent `index.html` title** — still says "My Google AI Studio App". Update to "Armchair Curator".
 
 5. **Vite config has encoding artifact** — `vite.config.ts` line with `// Do not modifyâ` has garbled characters.
 
@@ -138,5 +138,5 @@ Both are JSON serialized. Clearing localStorage resets the canvas to the default
 - **Salon Wall smart layout** — currently a plain CSS grid. The DESIGN.md envisioned spring physics or intelligent masonry layout with smooth transitions.
 - **Responsive mobile** — the app assumes desktop viewport. Belts and canvas need mobile layout.
 - **Error boundary** — add a React ErrorBoundary wrapper around the app.
-- **Fix `index.html` title** — change to "Curator's Belt".
+- **Fix `index.html` title** — change to "Armchair Curator".
 - **Gallery lighting selector in Export modal** — the lighting selector currently only exists in the Plaque modal. Consider adding it to the Export modal too.

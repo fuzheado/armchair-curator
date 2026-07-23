@@ -1,4 +1,4 @@
-# Curator's Belt — Implementation Progress
+# Armchair Curator — Implementation Progress
 
 ## Dataset Expansion (#2) ✅ DONE
 - Expanded from 37 to **106 artworks**
