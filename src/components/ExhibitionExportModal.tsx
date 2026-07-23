@@ -47,7 +47,8 @@ export const ExhibitionExportModal: React.FC<ExhibitionExportModalProps> = ({
           `<div class="plate">
             <div class="plate-number">Plate ${idx + 1}</div>
             <div class="plate-img">
-              <img src="${item.artwork.thumbUrl}" alt="${item.artwork.title}" crossorigin="anonymous" />
+              <img src="${item.artwork.thumbUrl}" alt="${item.artwork.title}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div style="display:none;width:100%;min-height:120px;align-items:center;justify-content:center;background:#f0ead6;color:#8b7355;font-size:11px;font-style:italic;">Image loading&hellip;</div>
             </div>
             <div class="plate-info">
               <div class="plate-title">${item.artwork.title}</div>
@@ -333,14 +334,32 @@ export const ExhibitionExportModal: React.FC<ExhibitionExportModalProps> = ({
 
 </div>
 </body>
+<script>
+(function(){
+  var imgs = document.querySelectorAll('img');
+  var total = imgs.length;
+  if (total === 0) { window.print(); return; }
+  var loaded = 0;
+  function checkDone() { loaded++; if (loaded >= total) { setTimeout(function(){ window.print(); }, 400); } }
+  imgs.forEach(function(img) {
+    if (img.complete) {
+      var ph = img.nextElementSibling;
+      if (ph && ph.style && img.naturalWidth > 0) ph.style.display = 'none';
+      checkDone();
+    } else {
+      img.addEventListener('load', function(){ var ph = img.nextElementSibling; if (ph && ph.style) ph.style.display = 'none'; checkDone(); });
+      img.addEventListener('error', function(){ checkDone(); });
+    }
+  });
+  setTimeout(function(){ window.print(); }, 10000);
+})();
+</script>
 </html>`;
 
     const w = window.open('', '_blank', 'width=900,height=700');
     if (w) {
       w.document.write(brochure);
       w.document.close();
-      // Give images a moment to load, then trigger print dialog
-      setTimeout(() => w.print(), 1500);
     }
   };
 
